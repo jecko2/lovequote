@@ -1,0 +1,192 @@
+*{
+    padding:0%;
+    margin:0%;
+    font-family:"Poppins", sans-serif;
+}
+
+/* .calculator{
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.calculator form{
+    max-width: 400px;
+    /* background-color: red; 
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.form-group{
+    padding: 20px 0 10px 10px;
+}
+.input-group
+{
+    background-color: rgb(64, 64, 105);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; 
+    width: 60%;
+    color: white;
+}
+.input-group span,
+.input-group input{
+    padding-left: 20px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 10px 0 10px 10px;
+    max-width: 90%;
+    height: 90%;
+    background: transparent;
+}
+input::placeholder{
+    color: #ffffff;
+}
+
+.d-flex .left #plus,
+.d-flex .left #minus{
+    font-size: 23px;
+    font-weight: 600;
+    color: blueviolet;
+    /* padding-right: 10px; 
+    cursor: pointer;
+    min-width: 100px !important;
+    min-height: 50px !important;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+
+  * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+ div {
+            width: 900px;
+
+        }
+
+        button:not(.clear) {
+            cursor: pointer;
+            outline: none;
+            border: none;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        button#red {
+            background-color: crimson;
+        }
+
+        button#yellow {
+            background-color: yellow;
+        }
+
+        button#green {
+            background-color: green;
+        }
+
+        .clear {
+            padding: 15px 50px;
+            background-color: rgb(116, 116, 178);
+            cursor: pointer;
+            border-radius: 40px;
+            border: none;
+            outline: none;
+        } */
+body, html{
+    background-color: rgb(204, 226, 218);
+
+}
+
+.container{
+    /* width: 900px; */
+    margin: 0 auto;
+    /* background-color: red; */
+
+
+}
+.container h3{
+    text-align: center;
+}
+.data{
+    padding: 10px;
+}
+    
+.wrapper{
+    background-color:#1c1c1c;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.buttons{
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.buttons button{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 10px;
+    font-weight: 500;
+}
+.clearButton .btnClear{
+    width: 100px;
+    min-height: 25px;
+    background-color: crimson;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 40px;
+}
+.clearButton{
+    padding-bottom: 20px;
+}
+.resultContainer{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box_content{
+    padding: 20px 0 30px 0;
+}
+.box_content img{
+    min-width: 400px;
+    height: 300px;
+    display: block;
+}
+
+.amount{
+    margin: 5px 0 10px 0;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    width: 400px;
+}
+#deposit,
+#withdraw{
+    width: 200px;
+    gap: 10px;
+    
+}
